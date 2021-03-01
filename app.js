@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 
 app.get('/', function (req, res) {
   res.render('index', {
-    title: 'BackSpace Academy & Elastic Beanstalk'
+    title: 'Learning CodePipLine & Git Integration for Node Js Server'
     })
     res.status(200).end();
 })
